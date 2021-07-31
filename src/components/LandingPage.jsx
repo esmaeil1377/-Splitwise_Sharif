@@ -35,7 +35,7 @@ class LandingPage extends Component {
                 <Jumbotron style={{ zIndex: 10, background: 'none' }} fluid>
                   <Container>
                     <h1>Splitwise</h1>
-                    <h3 className="text-center text-lg-left text-xl-left text-muted font-weight-bold">Less stress when sharing expenses with housemates.</h3>
+                    <h3 className="text-center text-lg-left text-xl-left text-muted font-weight-bold">A system for sharing expenses with friends.</h3>
                     <p className="text">
                       Keep track of your shared expenses and balances
                       {' '}
