@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import { USER_SIGNUP } from '../actions/constant-types';
 
 const initState = {

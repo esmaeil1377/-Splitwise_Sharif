@@ -2,7 +2,6 @@ import axios from 'axios';
 import { USER_SIGNUP } from './constant-types';
 import apiHost from '../config';
 
-// eslint-disable-next-line import/prefer-default-export
 export const userSignUp = (userInfo) => (dispatch) => {
   axios.defaults.withCredentials = true;
   axios.post(`${apiHost}/api/signup`, userInfo)
